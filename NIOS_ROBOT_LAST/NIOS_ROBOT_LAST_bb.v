@@ -1,0 +1,24 @@
+
+module NIOS_ROBOT_LAST (
+	clk_clk,
+	reset_reset_n,
+	to_external_bus_bridge_0_external_interface_acknowledge,
+	to_external_bus_bridge_0_external_interface_irq,
+	to_external_bus_bridge_0_external_interface_address,
+	to_external_bus_bridge_0_external_interface_bus_enable,
+	to_external_bus_bridge_0_external_interface_byte_enable,
+	to_external_bus_bridge_0_external_interface_rw,
+	to_external_bus_bridge_0_external_interface_write_data,
+	to_external_bus_bridge_0_external_interface_read_data);	
+
+	input		clk_clk;
+	input		reset_reset_n;
+	input		to_external_bus_bridge_0_external_interface_acknowledge;
+	input		to_external_bus_bridge_0_external_interface_irq;
+	output	[5:0]	to_external_bus_bridge_0_external_interface_address;
+	output		to_external_bus_bridge_0_external_interface_bus_enable;
+	output	[1:0]	to_external_bus_bridge_0_external_interface_byte_enable;
+	output		to_external_bus_bridge_0_external_interface_rw;
+	output	[15:0]	to_external_bus_bridge_0_external_interface_write_data;
+	input	[15:0]	to_external_bus_bridge_0_external_interface_read_data;
+endmodule
