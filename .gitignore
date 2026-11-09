@@ -1,0 +1,28 @@
+# Quartus outputs
+db/
+incremental_db/
+output_files/
+simulation/
+greybox_tmp/
+*.qws
+*.rpt
+*.summary
+*.smsg
+*.done
+*.pin
+*.sof
+*.pof
+*_assignment_defaults.qdf
+
+# Platform Designer (Qsys) generated HDL
+NIOS_ROBOT_LAST/synthesis/
+NIOS_ROBOT_LAST/simulation/
+
+# Nios II software build outputs (regenerate the BSP with create-this-bsp)
+logiciel/*_bsp/*
+!logiciel/*_bsp/settings.bsp
+!logiciel/*_bsp/create-this-bsp
+logiciel/*/obj/
+*.elf
+*.map
+*.objdump

@@ -142,7 +142,7 @@ ACDS_VERSION := 17.1
 ELF := ROBOT_EEEA_1A.elf
 
 # Paths to C, C++, and assembly source files.
-C_SRCS := hello_world_small.c
+C_SRCS := main.c
 CXX_SRCS :=
 ASM_SRCS :=
 
